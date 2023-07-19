@@ -63,7 +63,7 @@ class time_series_model():
         return self.differencer(self.series)[2]
     
     #a function that takes a series and initial values and inverts the differencing
-    def invert_differencing(initial_vals, df_differenced):
+    def invert_differencing(self, initial_vals, df_differenced):
         df_differenced = df_differenced.reset_index(drop = True)
         df_differenced.loc[-1] = initial_vals
         df_differenced.index = df_differenced.index + 1

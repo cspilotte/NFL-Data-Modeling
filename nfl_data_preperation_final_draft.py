@@ -776,4 +776,3 @@ for i in years_pull:
                 extra_vars.append(p)
         df_season_final_matched = df_season_final_matched.drop(extra_vars, axis = 'columns')
         df_all_season_final_matched = pd.concat([df_all_season_final_matched, df_season_final_matched], axis = 'index')
-df_all_season_final_matched.to_csv(r"C:\Users\cpilo\Downloads\df_all_teams_070823.csv")

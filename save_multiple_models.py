@@ -14,7 +14,7 @@ import time
 import pandas as pd
 import numpy as np
 
-%run C:\Users\cpilo\.spyder-py3\autosave\nfl_data_preperation_final_draft.py
+%run nfl_data_preperation_final_draft.py
 
 df = df_all_season_final_matched
 
@@ -40,7 +40,7 @@ Team_abbr = ['crd', 'atl', 'rav', 'buf', 'car', 'chi', 'cin', 'cle', 'dal', 'den
              'nor', 'nyg', 'nyj', 'phi', 'pit', 'sfo', 'sea', 'tam', 'oti', 'was', 'was', 
              'was']
 
-%run C:\Users\cpilo\.spyder-py3\autosave\Time_Series_Class.py
+%run Time_Series_Class.py
 
 def model_saver(team, model_vars, folder_path):
     #create time series for each team

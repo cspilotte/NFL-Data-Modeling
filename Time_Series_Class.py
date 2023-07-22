@@ -26,7 +26,7 @@ class time_series_model():
         series_name = []
         series_test = []
         series_pval = []
-        for name, column in df.iteritems():
+        for name, column in df.items():
             #run ad fuller test on each column
             x = adfuller(column)
             #save the series name, test statistic and p value
